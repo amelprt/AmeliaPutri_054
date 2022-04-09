@@ -1,0 +1,15 @@
+# AmeliaPutri_054
+public class Kubus extends PersegiPanjang{
+    int s;
+    public int volume (){
+        s = l;
+        int v = s*s*s;
+        return v;
+    }
+    public static void main(String[] args) {
+        Kubus kubus = new Kubus();
+        PersegiPanjang pp = new PersegiPanjang();
+        kubus.set_nilai_l(5);
+        System.out.println("Volume = "+kubus.volume());
+    }
+}
